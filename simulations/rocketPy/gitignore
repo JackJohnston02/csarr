@@ -1,0 +1,103 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# C extensions
+*.c
+*.o
+*.lo
+*.la
+*.al
+*.i
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment folders
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.*  
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.lint
+*.coverage
+
+# Pytest cache
+.pytest_cache/
+
+# Linting and static analysis
+.mypy_cache/
+.pyre/
+.pytype/
+.pylint.d/
+
+# Logs and debugging
+*.log
+*.out
+*.err
+*.pid
+*.trace
+*.prof
+*.profraw
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Data directories (input/output data and generated plots)
+data/output/*.csv  # Ignore any output CSV files
+
+data/input/*.backup  # Optionally ignore any backup input files
+
+# Ignore the plotting output directory
+data/output/plots/
+
+# Ignore the results
+data/output/results.csv
+
+# Ignore generated plots in true_states
+plots/true_states/
+
+data/output
+analysis/output
+.pyc
+plots
+.png
